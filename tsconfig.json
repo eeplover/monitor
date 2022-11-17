@@ -1,0 +1,12 @@
+{
+  "include": ["./src/*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./esm",
+    "lib": ["esnext", "dom"],
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true
+  }
+}
